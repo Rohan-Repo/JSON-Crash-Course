@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JSONViewer </title>
+</head>
+<script>
+    var jsonObj = 
+    [
+        {
+            "name" : "Big Corporation",
+            "numberOfEmployees" : 10000,
+            "ceo" : "Mary",
+            "isNonProfit" : false,
+            "clientType" : [
+                "Banking",
+                "E-Commerce",
+                "Manufacturing"
+            ],
+            "rating" : 3.9 
+        },
+        {
+            "name" : "Mid-Level Startup",
+            "numberOfEmployees" : 5000,
+            "ceo" : "John",
+            "isNonProfit" : false,
+            "clientType" : [
+                "Crypto",
+                "Customer Service"
+            ],
+            "rating" : 3.5 
+        },
+        {
+            "name" : "Non-Profit",
+            "numberOfEmployees" : 500,
+            "ceo" : null,
+            "isNonProfit" : true,
+            "clientType" : [
+                "Non-Profit",
+                "Government"
+            ],
+            "rating" : 4.0 
+        }
+    ]
+
+    console.log( "Whole JSON", jsonObj );
+    console.log( "3rd Object", jsonObj[2] );
+    
+    // Convert JSON Object to String
+    strJSON = JSON.stringify ( jsonObj );
+    console.log( 'Type jsonObj : ', typeof(jsonObj), " \t Type strJSON : ", typeof(strJSON) )
+    // Convert that Object back to JSON
+    jsonObj2 = JSON.parse( strJSON ); 
+    console.log( 'Type jsonObj2 : ', typeof(jsonObj2), " \t Type strJSON : ", typeof(strJSON) )
+
+</script>
+<body>
+    <h2> JSONViewer </h2>
+</body>
+</html>
