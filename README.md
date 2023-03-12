@@ -14,4 +14,5 @@ f.	Objects – Other JSON Objects
 7.	They can also be used for Creating Request, Responses for API’s, consuming those API’s, Writing Configuration files or Translation Files.
 8.	We write JSON in Opening and Closing Curly Braces “{}” and the Data in the Key-Value Pair where every value is enclosed in double quotes 
     and separated by a colon “:” and multiple properties are separated by comma “,”
+    
     DO NOT FORGET every key should be enclosed in Double Quotes “
