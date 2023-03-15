@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Big Corporation",
+        "numberOfEmployees" : 10000,
+        "companyAddress": {
+            "Street" : "123 Main St.",
+            "City" : "Toronto",
+            "Province" : "Ontario"
+        },
+        "ceo" : "Mary",
+        "isNonProfit" : false,
+        "clientType" : [
+            "Banking",
+            "E-Commerce",
+            "Manufacturing"
+        ],
+        "rating" : 3.9 
+    },
+    {
+        "name" : "Mid-Level Startup",
+        "numberOfEmployees" : 5000,
+        "companyAddress": {
+            "Street" : "987 Union St.",
+            "City" : "Edmonton",
+            "Province" : "Alberta"
+        },
+        "ceo" : "John",
+        "isNonProfit" : false,
+        "clientType" : [
+            "Crypto",
+            "Customer Service"
+        ],
+        "rating" : 3.5 
+    },
+    {
+        "name" : "Non-Profit",
+        "numberOfEmployees" : 500,
+        "companyAddress": {
+            "Street" : "456 Yonge St.",
+            "City" : "Surrey",
+            "Province" : "British Columbia"
+        },
+        "isNonProfit" : true,
+        "clientType" : [
+            "Non-Profit",
+            "Government"
+        ],
+        "rating" : 4.0 
+    }
+]

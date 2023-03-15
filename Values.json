@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "University",
+        "numberOfEmployees" : 100,
+		"Province" : "QC",
+        "ceo" : "Patrick",
+        "isNonProfit" : false,
+        "clientType" : [
+            "Students",
+            "Working Professionals"
+        ],
+        "rating" : 3.1 
+    },
+    {
+        "name" : "Realtor",
+        "numberOfEmployees" : 10,
+		"Province" : "QC",
+        "ceo" : "Sam",
+        "clientType" : [
+            "Business",
+            "Salaried Employees",
+            "Contract Employees"
+        ],
+        "rating" : 2.9 
+    },
+    {
+        "name" : "Social-Media",
+        "numberOfEmployees" : 1000,
+		"Province" : "NB",
+        "ceo" : "Quinn",
+        "clientType" : [
+            "Influencers",
+            "Business Owners"
+        ],
+        "rating" : 2.9 
+    }
+]
